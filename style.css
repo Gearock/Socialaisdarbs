@@ -301,5 +301,396 @@ text-align: center;
 color: #FFFFFF;
 
 }
+.home {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    top: 12px;
+    left: 653px;
+}
+.rectangle {
+    position: absolute;
+width: 1px;
+height: 53px;
+left: 1103px;
+top: 0px;
+
+}
+
+.work {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 12px;
+    left: 1134px;
+
+}
+
+.workText {
+position: absolute;
+width: 28px;
+height: 14px;
+top: 34px;
+left: 1119px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.Polygon12 {
+position: absolute;
+width: 12.12px;
+height: 6.75px;
+left: 1156.12px;
+top: 38px;
+
+}
+.TryPremium {
+    position: absolute;
+width: 97px;
+height: 30px;
+left: 1184px;
+top: 12px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 122.3%;
+/* or 15px */
+
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.Rectangle107 {
+    position: absolute;
+width: 217px;
+height: 220px;
+left: 154px;
+top: 443px;
+background: #FFFFFF;
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+}
+.Rectangle106 {
+    position: absolute;
+width: 7px;
+height: 44px;
+left: 154px;
+top: 443px;
+background: #3072AC;
+border-radius: 2px 0px 0px 0px;
+}
+
+.HomeText {
+position: absolute;
+width: 40px;
+height: 17px;
+left: 171px;
+top: 456px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+color: #3072AC;
+}
+
+.Rectangle102 {
+position: absolute;
+width: 217px;
+height: 1px;
+left: 154px;
+top: 487px;
+
+background: #DDDDDD;
+}
+.AboutText {
+position: absolute;
+width: 40px;
+height: 17px;
+left: 171px;
+top: 501px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+display: flex;
+align-items: center;
+
+color: #707070;
+}
+.Rectangle103 {
+    position: absolute;
+    width: 217px;
+    height: 1px;
+    left: 154px;
+    top: 531px;
+    background: #DDDDDD;
+}
+.JobsText
+{
+position: absolute;
+width: 33px;
+height: 17px;
+left: 171px;
+top: 544px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+color: #707070;
+
+}
+
+.Rectangle104{
+    position: absolute;
+width: 217px;
+height: 1px;
+left: 154px;
+top: 574px;
+
+background: #DDDDDD;
+}
+
+.PeopleText{
+    position: absolute;
+width: 47px;
+height: 17px;
+left: 171px;
+top: 589px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+color: #707070;
+}
+
+.Rectangle105 {
+    position: absolute;
+    width: 217px;
+    height: 1px;
+    left: 154px;
+    top: 619px;
+    background: #DDDDDD;
+}
+
+.Ads{
+    position: absolute;
+width: 26px;
+height: 17px;
+left: 171px;
+top: 632px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: #707070;
+}
+
+
+/*Armando middle*/
+
+.middleBox1{
+position: absolute;
+width: 552px;
+height: 578px;
+left: 395px;
+top: 491px;
+}
+
+.middleBox2{
+position: absolute;
+width: 552px;
+height: 578px;
+left: 395px;
+top: 1087px;
+}
+
+.middleBox3{
+position: absolute;
+width: 552px;
+height: 578px;
+left: 395px;
+top: 1677px;
+}
+
+.middleBoxAll{
+position: absolute;
+width: 44px;
+height: 33px;
+left: 394px;
+top: 443px;
+background: #606F7B;
+border-radius: 100px;
+}
+
+.middleBoxAllText{
+position: absolute;
+width: 20px;
+height: 20px;
+left: 406px;
+top: 449px;
+    
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;  
+color: #FFFFFF;
+}
+
+.middleBoxImages{
+position: absolute;
+width: 79px;
+height: 33px;
+left: 447px;
+top: 443px;
+background: #E1E5E8;
+border-radius: 100px;
+}
+
+.middleBoxImagesText{
+position: absolute;
+width: 56px;
+height: 20px;
+left: 458px;
+top: 449px;
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #707070;
+}
+
+.middleBoxDocuments{
+position: absolute;
+width: 110px;
+height: 33px;
+left: 534px;
+top: 443px;
+background: #E1E5E8;
+border-radius: 100px;
+}
+
+.middleBoxDocumentsText{
+position: absolute;
+width: 88px;
+height: 20px;
+left: 546px;
+top: 449px;
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #707070;
+}
+
+.middleBoxVideos{
+position: absolute;
+width: 75px;
+height: 33px;
+left: 653px;
+top: 443px;
+background: #E1E5E8;
+border-radius: 100px;
+}
+
+.middleBoxVideosText{
+position: absolute;
+width: 52px;
+height: 20px;
+left: 665px;
+top: 449px;
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #707070;
+}
+
+.middleSectionSortBy{
+position: absolute;
+width: 43px;
+height: 14px;
+left: 861px;
+top: 453px;
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #707070;
+}
+
+.middleSectionTop{
+position: absolute;
+width: 21px;
+height: 15px;
+left: 909px;
+top: 452px;
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #191919;
+}
+
+.middleSectionTriangle{
+position: absolute;
+width: 12.12px;
+height: 6.75px;
+left: 945.06px;
+top: 463px;
+background: #707070;
+transform: rotate(-180deg);
+}
+
+/*Armando middle END*/
 
 
