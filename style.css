@@ -301,5 +301,218 @@ text-align: center;
 color: #FFFFFF;
 
 }
+.home {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    top: 12px;
+    left: 653px;
+}
+.rectangle {
+    position: absolute;
+width: 1px;
+height: 53px;
+left: 1103px;
+top: 0px;
+
+}
+
+.work {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 12px;
+    left: 1134px;
+
+}
+
+.workText {
+position: absolute;
+width: 28px;
+height: 14px;
+top: 34px;
+left: 1119px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.Polygon12 {
+position: absolute;
+width: 12.12px;
+height: 6.75px;
+left: 1156.12px;
+top: 38px;
+
+}
+.TryPremium {
+    position: absolute;
+width: 97px;
+height: 30px;
+left: 1184px;
+top: 12px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 122.3%;
+/* or 15px */
+
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.Rectangle107 {
+    position: absolute;
+width: 217px;
+height: 220px;
+left: 154px;
+top: 443px;
+background: #FFFFFF;
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+}
+.Rectangle106 {
+    position: absolute;
+width: 7px;
+height: 44px;
+left: 154px;
+top: 443px;
+background: #3072AC;
+border-radius: 2px 0px 0px 0px;
+}
+
+.HomeText {
+position: absolute;
+width: 40px;
+height: 17px;
+left: 171px;
+top: 456px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+color: #3072AC;
+}
+
+.Rectangle102 {
+position: absolute;
+width: 217px;
+height: 1px;
+left: 154px;
+top: 487px;
+
+background: #DDDDDD;
+}
+.AboutText {
+position: absolute;
+width: 40px;
+height: 17px;
+left: 171px;
+top: 501px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+display: flex;
+align-items: center;
+
+color: #707070;
+}
+.Rectangle103 {
+    position: absolute;
+    width: 217px;
+    height: 1px;
+    left: 154px;
+    top: 531px;
+    background: #DDDDDD;
+}
+.JobsText
+{
+position: absolute;
+width: 33px;
+height: 17px;
+left: 171px;
+top: 544px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+color: #707070;
+
+}
+
+.Rectangle104{
+    position: absolute;
+width: 217px;
+height: 1px;
+left: 154px;
+top: 574px;
+
+background: #DDDDDD;
+}
+
+.PeopleText{
+    position: absolute;
+width: 47px;
+height: 17px;
+left: 171px;
+top: 589px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+color: #707070;
+}
+
+.Rectangle105 {
+    position: absolute;
+    width: 217px;
+    height: 1px;
+    left: 154px;
+    top: 619px;
+    background: #DDDDDD;
+}
+
+.Ads{
+    position: absolute;
+width: 26px;
+height: 17px;
+left: 171px;
+top: 632px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: #707070;
+}
 
 
