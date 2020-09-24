@@ -1,90 +1,136 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <title>Our Funky HTML Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LinkedIn webpage project made @ Riga Coding School">
+    <meta name="keywords" content="LinkedIn student project">
+    <title>LinkedIn project @ RCS</title>
+    <link rel="stylesheet" href="Css/style.css">
 </head>
-
 <body>
-    <header class="global-nav"></header>
-        
-   <!--<img src="img/Rectangle 130.svg" alt="liste augseeja" class="rectangle130">-->
-    <img src="img/LogoGroup.svg" alt="galvlogo" class="LogoGroup">
-    <img src="img/Rectangle 125.svg" alt="seach gabals" class="rectangle125">
-    <img src="img/Ellipse 55.svg" alt="lupa1" class="lupa1">
-    <img src="img/Vector 7.svg" alt="kats lupai" class="lupa2">
 
+<header>
+    <a href="#" class="navElemBackground headerLeftMargin">
+        <img src="img/LinkedIn_small_Logo.svg" alt="LinkedIn_small_Logo" class="navElemBackground"/>
+    </a>
     
+    <form class="navElemBackground" action=""><input type="text" placeholder="Search" class="headerForm"></form>
+
+<nav class="headerNavMargin">
+    <a href="#"> 
+        <img src="img/Home.svg" alt="Home" class="navElemBackground"/>
+        <p class="navElemBackground">Home</p> 
+    </a>
+    <a href="#"> 
+        <img src="img/Network.svg" alt="My Network" class="navElemBackground"/>
+        <p class="navElemBackground">My Network</p>
+    </a>
+
+    <a href="#"> 
+        <img src="img/Jobs.svg" alt="Jobs" class="navElemBackground"/>
+        <p class="navElemBackground">Jobs</p>
+    </a>
+    <a href="#"> 
+        <img src="img/Messaging.svg" alt="Messaging" class="navElemBackground"/>
+        <p class="navElemBackground">Messaging</p>
+    </a>
+    <a href="#"> 
+        <img src="img/Notifications.svg" alt="Notifications" class="navElemBackground"/>
+        <p class="navElemBackground">Notifications</p>
+    </a>
+    <a href="#"> 
+        <img src="img/ME_circle.svg" alt="Me" class="navElemBackground"/>
+        <p class="navElemBackground">ME</p>
+    </a>
+    <a href="#"> 
+        <img src="img/Work.svg" alt="Work" class="navIconBackground"/>
+        <p class="navElemBackground">Work</p>
+    </a>
+</nav>
+
+    <a href="#" class="navElemBackground headerText headerRightMarginPlusColor"> 
+        Try Premium Free <br> for 1 month
+    </a>
+
+</header>    
+
+
+<h1> <strong> <span class="h1Span_1">Lorem ipsum is simply -</span> Dummy text of the printing and typesetting industry.</strong> <span class="h1Span_2">Ad ...</span></h1>
+
+<main class="mainStyle">
+    <img src="https://picsum.photos/1129/192" alt="Main Picsum" class="MainPic"/>
+    <img src="https://picsum.photos/104/104" alt="Little Picsum" class="LittlePic"/>
     
-    <div class="home"><a href="#"><img src="img/Home.svg" ><span>Home</span></a></div>
-    <div class="myNetwork"><a href="#"><img src="img/MyNetwork.svg"><span>My Network</span></a></div>
-    <div class="jobs"><a href="#"><img src="img/Jobs.svg"><span>Jobs</span></a></div>
-    <div class="messaging"><a href="#"><img src="img/Messaging.svg" ><span>Messaging</span></a></div>
-    <div class="notifications"><a href="#"><img src="img/Notifications.svg" ><span>Notifications</span></a></div>
-    <div class="meProfile"><a href="#"><img src="img/Me.svg" alt="meCircle" class="me"><span>Me</span></a></div>
-    <div class="arrow"><a href="#"><img src="img/MeArrow.svg" alt="mearrow" class="meArrow"></a></div>
-    <div class="count"><a href="#"><img src="img/MyNetCount.svg" ><span></span></a></div>
+    <div class="Name"> <span class="NameText_1">NAME</span><br> <span class="NameText_2">Industry - City, State - 623 followers</span></div>
+    <div class="Following"> <span class="FollowingText_1">Following   ...   </span><br><br> <span class="FollowingText_2">John and 12 other connections work here</span><br><br> <span class="FollowingText_3">See all 79 employees on LinkedIn</span></div>
     
+
+    <form class="mainButtonVisitWeb_VertPos"><button class="mainButtonVisitWeb"><p class="mainButtonVisitWebText">Visit Website</p></button> </form>
     
-        <div id="global-nav-typeahead" class="search-typeahead-v2 search-global-typeahead__typeahead ember-view">
-            <div id="ember16" class="ember-view">
-                <input class="search-global-typeahead__input always-show-placeholder" placeholder="Search"
-                    role="combobox" aria-autocomplete="list" aria-activedescendant="" aria-expanded="false" aria-owns=""
-                    aria-label="Search" type="text"></div>
-            <!---->
-            <!---->
+    <div class="mainLowerBox"></div>
+
+</main>
+
+
+<section>
+    
+    <div class="sectionLeft">
+        <a href="#" class="sectionLeftText">
+            <span class="sectionLeftText_span">Home</span>
+        </a>
+        <a href="#" class="sectionLeftText">
+            <span class="sectionLeftText_span">About</span>
+        </a>
+        <a href="#" class="sectionLeftText">
+            <span class="sectionLeftText_span">Jobs</span>
+        </a>
+        <a href="#" class="sectionLeftText">
+            <span class="sectionLeftText_span">People</span>
+        </a>
+        <a href="#" class="sectionLeftText">
+            <span class="sectionLeftText_span">Ads</span>
+        </a>
+    </div>
+    
+
+    <!-- Te iet iekšā vidējās kolonnas elementi! Tie ir identiski - jaiztaisa vienu reizi viens un pārejos sakopē un caur CSS flex un citiem parametriem saliek kā vajag! -->
+
+    <div>MIDDLE
+
+        <div>
+            <!-- Te iet iekšā vidējās kolonnas elementi - to kods - ELEMENTS 1 -->
         </div>
-        <div id="ember16" class="ember-view">
-            <input class="search-global-typeahead__input always-show-placeholder" placeholder="Search" role="combobox"
-                aria-autocomplete="list" aria-activedescendant="" aria-expanded="false" aria-owns="" aria-label="Search"
-                type="text"></div>
-        <input class="search-global-typeahead__input always-show-placeholder" placeholder="Search" role="combobox"
-            aria-autocomplete="list" aria-activedescendant="" aria-expanded="false" aria-owns="" aria-label="Search"
-            type="text">
 
-              
+        <div>
+            <!-- Te iet iekšā vidējās kolonnas elementi - to kods - ELEMENTS 1-copy -->
+        </div>
+
+        <div>
+            <!-- Te iet iekšā vidējās kolonnas elementi - to kods - ELEMENTS 1-copy -->
+        </div>
     
-    <img src="img/Rectangle126.svg" alt="rectangle126" class="rectangle">
-    <img src="img/Vector(2).svg" alt="work-ikona" class="work">
-    <a href="WorkText"><img src="img/WorkText.svg" alt="work-text" class="workText"></a>
-    <img src="img/Polygon12.svg" alt="Polygon12" class="Polygon12">
-    <a href="TryPremium"><img src="img/TryPremium.svg" alt="TryPremium" class="TryPremium"></a>
-    <img src="img/Rectangle107.png" alt="Rectangle107" class="Rectangle107">
-    <img src="img/Rectangle106.svg" alt="Rectangle106" class="Rectangle106">
-    <a href="HomeText"><img src="img/HomeText.svg" alt="HomeText" class="HomeText"></a>
-    <img src="img/Rectangle102.svg" alt="Rectangle102" class="Rectangle102">
-    <a href="About"><img src="img/AboutText.svg" alt="AboutText" class="AboutText"></a>
-    <img src="img/Rectangle103.svg" alt="Rectangle103" class="Rectangle103">
-    <a href="JobsText"><img src="img/JobsText.svg" alt="JobsText" class="JobsText"></a>
-    <img src="img/Rectangle104.svg" alt="Rectangle104" class="Rectangle104">
-    <a href="PeopleText"><img src="img/PeopleText.svg" alt="PeopleText" class="PeopleText"></a>
-    <img src="img/Rectangle105.svg" alt="Rectangle105" class="Rectangle105">
-    <a href="Ads"><img src="img/Ads.svg" alt="Ads" class="Ads"></a>
-    
+    </div>
 
-    <!-- Armando middle -->
-    
-    <img src="img/boxAll.svg" alt="middleBoxAll" class="middleBoxAll">
-    <img src="img/boxAllText.svg" alt="middleBoxAllText" class="middleBoxAllText">
-    <img src="img/boxImages.svg" alt="middleBoxImages" class="middleBoxImages">
-    <img src="img/boxImagesText.svg" alt="middleBoxImagesText" class="middleBoxImagesText">
-    <img src="img/boxDocuments.svg" alt="middleBoxDocuments" class="middleBoxDocuments">
-    <img src="img/boxDocumentsText.svg" alt="middleBoxDocumentsText" class="middleBoxDocumentsText">
-    <img src="img/boxVideos.svg" alt="middleBoxVideos" class="middleBoxVideos">
-    <img src="img/boxVideosText.svg" alt="middleBoxVideosText" class="middleBoxVideosText">
 
-    <img src="img/middleSectionSortBy.svg" alt="middleSectionSortBy" class="middleSectionSortBy">
-    <img src="img/middleSectionTop.svg" alt="middleSectionTop" class="middleSectionTop">
-    <img src="img/middleSectionTriangle.svg" alt="middleSectionTriangle" class="middleSectionTriangle">
+    <!-- Te iet iekšā labās sānu kolonnas elementi! Tie ir 2 dažādi! Bet lielu daļu formatējuma var veikt caur CSS flex un citiem parametriem! -->
 
-    <img src="img/Group 39.svg" alt="middleBox1" class="middleBox1">
-    <img src="img/Group 40.svg" alt="middleBox2" class="middleBox2">
-    <img src="img/Group 41.svg" alt="middleBox3" class="middleBox3">
-    
-    <!-- Armando middle END-->
+    <aside>SIDE
 
-        Content goes here.
+        <div>
+            <!-- Te iet iekšā labās kolonnas ELEMENTS 1 -->
+        </div>
+        
+        
+        <div>
+            <!-- Te iet iekšā labās kolonnas ELEMENTS 2 -->
+        </div>
+
+
+    </aside>
+
+</section>
+
+
 </body>
-
 </html>
