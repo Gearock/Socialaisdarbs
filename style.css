@@ -105,6 +105,11 @@ top: -115px;
 background: transparent;
 color: var(--cool-gray-30,#e1e9ee);
 }
+.count{
+    position: relative;
+    left: 190px;
+    top: -205px;
+}
 
 .arrow{
 position: relative;
