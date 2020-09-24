@@ -1,6 +1,16 @@
 body {
     margin: 0px;
 }
+.global-nav {
+    background-color: var(--cool-gray-80,#283e4a);
+    left: 0;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 55px;
+    
+}
 .LogoGroup {
     position: absolute;
 width: 34px;
@@ -56,194 +66,94 @@ line-height: 17px;
     
     }
 
+
+
 .home{
-  
-position: absolute;
-left: 45.1%;
-right: 53.52%;
-top: 1.53%;
-bottom: 98.66%;
-
+position: relative;
+left: -100px;
+top: 15px;
+background: transparent;
+color: var(--cool-gray-30,#e1e9ee);
 }
-.hometxt{
 
-position: absolute;
-width: 33px;
-height: 14px;
-left: 44.7%;
-top: 34px;
-
-font-family: Helvetica Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #C9D1D7;
-
-}
 .myNetwork{
- 
-position: absolute;
-left: 50.41%;
-right: 48%;
-top: 1.53%;
-bottom: 98.66%;
-
+position: relative;
+left: -35px;
+top: -18px;
+background: transparent;
+color: var(--cool-gray-30,#e1e9ee);     
 }
-.myNetworkTxt{
-   
-position: absolute;
-width: 65px;
-height: 14px;
-left: 49.2%;
-top: 34px;
 
-font-family: Helvetica Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-display: flex;
-align-items: center;
-text-align: center;
-
-
-color: #C9D1D7;
-
-}
 .jobs{
-    
-
-position: absolute;
-left: 56.15%;
-right: 42.47%;
-top: 1.53%;
-bottom: 98.71%;
-
-}
-.jobsTxt{
- 
-position: absolute;
-width: 27px;
-height: 14px;
-left: 55.8%;
-top: 34px;
-
-font-family: Helvetica Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #C9D1D7;
-
+position: relative;
+left: 35px;
+top: -49px;
+background: transparent;
+color: var(--cool-gray-30,#e1e9ee);
 }
 .messaging{
-
-position: absolute;
-left: 61.67%;
-right: 36.95%;
-top: 1.53%;
-bottom: 98.58%;
-
-
-}
-.messagingTxt{
- 
-position: absolute;
-width: 59px;
-height: 14px;
-left: 60%;
-top: 34px;
-
-font-family: Helvetica Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #C9D1D7;
-
+position: relative;
+left: 100px;
+top: -82px;
+background: transparent;
+color: var(--cool-gray-30,#e1e9ee);
 }
 .notifications{
- 
-position: absolute;
-left: 67.27%;
-right: 31.49%;
-top: 1.53%;
-bottom: 98.62%;
-
+position: relative;
+left: 180px;
+top: -115px;
+background: transparent;
+color: var(--cool-gray-30,#e1e9ee);
 }
-.notificationsTxt{
- 
-position: absolute;
-width: 68px;
-height: 14px;
-left: 65.8%;
-top: 34px;
 
-font-family: Helvetica Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #C9D1D7;
-
+.arrow{
+position: relative;
+top: -165px;
+left: 318px;
 }
+
+
+.meProfile{
+    position: relative;
+    top: -153px;
+    left:300px;
+
+    }
+
 .me{
-  
-position: absolute;
+
 width: 25px;
 height: 25px;
-left: 1000px;
-top: 8px;
-
 box-sizing: border-box;
-
 }
-.meTxt{
 
-position: absolute;
-width: 17px;
-height: 14px;
-left: 995px;
-top: 34px;
+.meArrow{
 
-font-family: Helvetica Neue;
+width: 12.12px;
+height: 6.75px;
+}
+
+
+a:-webkit-any-link{
+color:  #C9D1D7;
+
+
+text-decoration-line: none;
+text-decoration-style: initial;
+text-decoration-color: initial;
+
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
-display: flex;
+
 align-items: center;
 text-align: center;
-
-color: #C9D1D7;
-
+display: flex;
+flex-direction: column;
 }
-.meArrow{
- 
-position: absolute;
-width: 12.12px;
-height: 6.75px;
-left: 1020.12px;
-top: 37px;
 
-}
+
 .line{
  
 
@@ -344,7 +254,7 @@ top: 38px;
 
 }
 .TryPremium {
-    position: absolute;
+position: absolute;
 width: 97px;
 height: 30px;
 left: 1184px;
