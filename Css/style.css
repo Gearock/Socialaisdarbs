@@ -252,3 +252,231 @@ section{
     background-color: white;
 }
 
+/* Right side elements*/
+
+.rightSide {
+display: flex;
+justify-content: space-between;
+}
+
+.block1 {
+width: 311px;
+height: 258px;
+background: #FFFFFF;
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+h {
+background-color:white;
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: -0.015em;
+color: #707070;
+margin-left: 265px;
+}
+
+.Addots {
+width: 38px;
+height: 16px;
+background-color: white;
+}
+
+.text1 {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: -0.015em;
+color: #707070;
+background-color: white;
+margin-left: 45px;
+margin-top: 20px;
+}
+
+.Ellipse {
+background-color:white;
+margin-left: 25px;
+} 
+
+.Rectangle122 {
+width: 70px;
+height: 70px;
+margin-left: 25px;
+border-radius: 2px;
+}
+
+.text2 {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 19px;
+letter-spacing: -0.015em;
+color: #707070;
+background-color: white;
+margin-top: 15px;
+margin-left: 15px;
+}
+
+.block1Text3 {
+background-color: white;
+display:flex;
+justify-content: center;
+}
+
+.text3 {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+letter-spacing: -0.015em;
+color: #707070;
+background-color: white;
+text-decoration: none;;
+}
+
+.mainButtonFollow {
+background-color: white;
+}
+    
+.ButtonFollow {
+width: 81px;
+height: 32px;
+border: 1px solid #3072AC;
+box-sizing: border-box;
+border-radius: 2px;
+justify-content: center;
+background-color: white;
+margin-left: 110px;
+margin-top: 15px;
+}
+    
+.ButtonFollowText {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+Padding: 2px;
+color: #3072AC;
+background-color: white;
+}  
+
+/* Right side bottom block*/
+
+
+.block2 {
+width: 311px;
+height: 326px;
+background: #FFFFFF;
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+}
+
+.block2 p1 {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: black;
+text-decoration: none;
+background-color: white;
+text-align: left;
+
+}
+
+.topElements {
+display: flex;
+flex-direction: row;
+background-color:white;
+}
+
+.Rectangle177 {
+width: 48px;
+height: 48px;
+border-radius: 1px;
+background-color: white;
+margin-left: 20px;
+}
+
+.block2Text {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 133.8%;
+color: #191919;
+background-color: white;
+margin-left: 10px;
+margin-top: 5px;
+
+}
+.block2_span2 {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 133.8%;
+color: #191919;
+background-color: white;
+}
+
+.text4 {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 133.8%;
+color: #3072AC;
+margin-top: 15px;
+margin-left: 80px;
+background-color: white;
+}
+
+.Rectangle118 {
+width: 240px;
+height: 1px;
+display: flex;
+justify-content: flex-end;
+background: #DDDDDD;
+margin-left: 72px;
+margin-top: 15px;
+}
+
+.Rectangle120 {
+width: 311px;
+height: 1px;
+background: #DDDDDD;
+}
+
+.show-more {
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 133.8%;
+color: #3072AC;
+background-color: white;
+display: flex;
+justify-content: center;
+margin-top:20px;
+}
+
+.show-pic {
+left: 80.32%;
+right: 18.72%;
+top: 44.99%;
+bottom: 54.74%;
+background: white;
+margin-left: 5px;
+margin-top: 5px;
+}
+    
+
