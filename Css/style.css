@@ -283,7 +283,6 @@ section{
 
 .middleSectionBackground{
     background-color: white;
-    
 }
 
 .sectionMiddle{
@@ -292,40 +291,47 @@ section{
 }   
 .sectionMiddleTop{
     background-color:transparent;
+    filter: none;
     width: 552px;
     height: 40px;
     display: flex;
     flex-direction: row;
-    filter: none;
-    
-    justify-content: left;
     }
-    .allButton{
+
+.allButton{
+
+    font-weight: bold;
+    font-size: 16px;
+    color: #858484;
+    width: 45px;
+    height: 29px;
+    background-color: rgb(197, 195, 195);
+    border-radius: 50px;
+    border-width: 0px;
+    cursor: pointer;
+}
+.otherButton{
+    font-weight: bold;
+    font-size: 16px;
+    color: #858484;
+    width: 100px;
+    height: 29px;
+    background-color: rgb(197, 195, 195);
+    border-radius: 50px;
+    border-width: 0px;
+    cursor: pointer;
+}
+.sortBy{
+    margin-left: 15px;
+    font-size: 12px;
+    color:black;
+    background-color: transparent;
+    width: 75px;
+    display: flex;
     
-        font-weight: bold;
-        font-size: 16px;
-        
-        color: #FFFFFF;
-        width: 45px;
-        height: 29px;
-        background-color: rgb(121, 119, 119);
-        border-radius: 50px;
-        border-width: 0px;
-        cursor: pointer;
-    }
-    .otherButton{
-        font-weight: bold;
-        font-size: 16px;
-        
-        color: #858484;
-        width: 100px;
-        height: 29px;
-        background-color: rgb(197, 195, 195);
-        border-radius: 50px;
-        border-width: 0px;
-        cursor: pointer;
-    }
-    
+
+}
+
     
 .sectionMiddleFirstBlock{
     background-color:white;
@@ -445,14 +451,11 @@ section{
     padding: 10px;
     height: 45px;
     display: flex;
-    justify-content: left;
-    background-color: white;
-   
-}
-.space{
-    padding-right: 15px;
+    flex-direction: row;
+    justify-content: flex-start;
     background-color: white;
 }
+
 
 /* Right side elements*/
 
