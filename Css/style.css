@@ -338,10 +338,8 @@ section{
     background-color: transparent;
     width: 75px;
     display: flex;
-    
-
+ 
 }
-
     
 .sectionMiddleFirstBlock{
     background-color:white;
@@ -383,6 +381,7 @@ section{
     font-weight: bold;
     font-size: 14px;
     text-decoration: none; 
+    color: black;
 
 }
 
@@ -428,12 +427,11 @@ section{
 }
 
 .sectionMiddleSixth{
-    width: 552px;
-    height: 42x;
-    display: flex;
-    justify-content: left;
-    background-color: white;
     
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
 }
 .react{
     display: flex;
@@ -457,14 +455,20 @@ section{
     
 }
 .sectionMiddleSeventh{
-    width: 552px;
-    padding: 10px;
-    height: 45px;
+    
+    margin-left: 5px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     background-color: white;
+    
 }
+.space{
+    padding-right: 8px;  
+    background-color: white;
+    color: black; 
+    
+}
+
 
 
 /* Right side elements*/
